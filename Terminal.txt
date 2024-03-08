@@ -3,6 +3,9 @@ Common commands I seem to forget
 Check version: [program] --version
 x. git --version
 
+Check whats installed: pip list
+Check details of specific module: pip show <module_name>
+
 print working directory(where you are): pwd
 
 moving in folder structure: cd [folder]
@@ -15,22 +18,23 @@ GIT setup etc.
 - Initiate the git repository locally(in the directory your terminal is in): git init
 - Connect your local git repository to remote one: git remote add origin <url>
 - Change the URL if you wrote the wrong one: git remote set-url origin <url>
-- check the url connected: remote -v
+- check the url connected: git remote -v
 - Adding files you want to commit:
 	git add <filename1> <filename2> (you can add many on by one)
 	git add	directory_name/*
 	git add -A directory_name or git add --all directory_name
 - Commit changes: git commit -m "Your commit message"
+	- Sequence: 1.New file needs an add. 2.Added file or changed file needs to be commited. 3.You push it to branch.
 - Push changes: git push origin <branch_name>
 - Pull changes: git pull origin <branch_name>
 - Connecting to an already existing repostory: 1.Navigate to desired directory. 2. git clone <repository_url>
 - Check current status: git status
 - Check commit history of repository: git log
 - Check which branch you are on: git branch
-
-Untested functions taken from GPT
 - Create a new branch: git branch <branch_name>
 - Switch branches:  git chekcout <branch_name>
+
+Untested functions taken from GPT
 - Create and switch to new branch:  git cheackout -b <branch_name>
 - Merge to target branch: 1. git checkout <target_branch> 2.git merge <branch_name>
 - Delete branch: git branch -d <branch_name>
