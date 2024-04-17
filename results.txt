@@ -1,4 +1,4 @@
-Multioutputregression: 0.5355978505174334
-RandomForest Baseline: 0.5755754731325337
-GradientBoosting: 0.6224638095166991
-RandomForest One Hot: 0.6364814494046507
+Multioutputregression: 0.5603988488977945
+RandomForest Baseline: 0.42493344414740086
+GradientBoosting: 0.6278648527666671
+RandomForest One Hot: 0.6333011938739601
